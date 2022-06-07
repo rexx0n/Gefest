@@ -50,16 +50,16 @@
 }
 .menu__contacts {
   text-align: right;
-  margin-left: 131px;
+  margin-left: 130px;
 }
 header hr {
   border: 1px solid #aeb6bb;
   border-top: 0;
 }
 main {
-    display: flex;
-    margin-left: 344px;
-    margin-top: 168px;
+  display: flex;
+  margin-left: 344px;
+  margin-top: 168px;
 }
 .text p {
   font-weight: 600;
@@ -68,7 +68,7 @@ main {
   color: #213252;
   margin-bottom: 73px;
 }
-.text .text__p{
+.text .text__p {
   font-weight: 400;
   font-size: 22px;
   line-height: 36px;
@@ -78,14 +78,48 @@ main {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  padding: 12px 83px 12px 83px;
+
   color: white;
-  background-color: #2d72cd;
   text-decoration: none;
   margin-top: 41px;
-  max-width: 300px;
-  text-align: center;
 }
 .text {
-    max-width: 625px;
+  max-width: 625px;
+}
+.text__link {
+  padding: 12px 83px 12px 83px;
+  background-color: #2d72cd;
+  text-align: center;
+  max-width: 400px;
+}
+.text__column {
+  position: relative;
+}
+.text__button {
+  position: absolute;
+  background-color: #e28519;
+  border-radius: 8px;
+  padding: 7px 6px 7px 6px;
+  max-width: 300px;
+  top: 492px;
+  left: 471px;
+}
+.text__text {
+  display: flex;
+  align-items: center;
+  border: dashed 1px;
+  border-radius: 8px;
+  color: white;
+  padding: 21px 14px 20px 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+.text__text svg {
+  width: 32px;
+  height: 42px;
+}
+.text__text p {
+  max-width: 200px;
+  margin-left: 20px;
 }
