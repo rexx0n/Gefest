@@ -152,3 +152,32 @@ main {
   font-size: 24px;
   line-height: 36px;
 }
+.products__assortment {
+  margin-top: 60px;
+}
+.products__assortment p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.products__goods {
+  border: 1px solid #aeb6bb;
+  margin-top: 33px;
+}
+.products__item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.products__item div {
+  border-right: 1px solid #aeb6bb;
+  text-align: center;
+  padding: 23px 30px 23px 30px;
+  width: 100%;
+}
+.products__item {
+  display: flex;
+}
+.products__item div:hover {
+  background-color: #EDF1F4;
+}
