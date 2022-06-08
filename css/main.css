@@ -27,7 +27,7 @@
   max-width: 217px;
   padding-left: 11px;
 }
-.menu a:hover{
+.menu a:hover {
   opacity: 0.7;
 }
 .menu a {
@@ -55,6 +55,10 @@
   text-align: right;
   margin-left: 130px;
 }
+hr {
+  border: 1px solid #aeb6bb;
+  border-top: 0;
+}
 header hr {
   border: 1px solid #aeb6bb;
   border-top: 0;
@@ -63,6 +67,7 @@ main {
   display: flex;
   margin-left: 344px;
   margin-top: 168px;
+  margin-bottom: 70px;
 }
 .text p {
   font-weight: 600;
@@ -131,4 +136,19 @@ main {
 }
 .text__button:hover {
   opacity: 0.9;
+}
+.products {
+  margin-top: 106px;
+}
+.products h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  max-width: 688px;
+  margin-bottom: 10px;
+}
+.products span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
 }
