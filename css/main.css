@@ -179,5 +179,21 @@ main {
   display: flex;
 }
 .products__item div:hover {
-  background-color: #EDF1F4;
+  background-color: #edf1f4;
+}
+.products__info {
+  display: flex;
+}
+.products__info h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+}
+.products__info ul {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.products__info div {
+  margin-left: 60px;
 }
