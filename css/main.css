@@ -234,7 +234,7 @@ main {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  margin-top: 24px
+  margin-top: 24px;
 }
 .panel__form div input {
   padding: 14px 56px 14px 10px;
@@ -271,6 +271,36 @@ main {
 }
 .panel picture {
   position: absolute;
-  top:-94px;
+  top: -94px;
   right: 341px;
+}
+.stock h2 {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 851px;
+}
+.stock h2 span {
+  font-weight: 400;
+  font-size: 24px;
+}
+.stock {
+  margin-top: 162px;
+}
+.stock__line h6 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 39px;
+}
+.stock__assortment {
+  display: flex;
+  margin-top: 61px;
+}
+.stock__line {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.stock__line h6 span {
+  font-weight: 400;
 }
