@@ -221,6 +221,7 @@ main {
 .panel {
   background-color: #1a2c41;
   color: white;
+  position: relative;
 }
 .panel h1 {
   padding-top: 76px;
@@ -233,12 +234,12 @@ main {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+  margin-top: 24px
 }
 .panel__form div input {
   padding: 14px 56px 14px 10px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 28px;
 }
 .panel__form {
   display: flex;
@@ -246,4 +247,30 @@ main {
   max-width: 610px;
   width: 100%;
   justify-content: space-between;
+  margin-bottom: 8px;
+}
+.panel__form div select {
+  padding: 14px 56px 14px 10px;
+  font-weight: 400;
+  font-size: 14.5px;
+}
+.panel__button a {
+  text-decoration: none;
+  color: white;
+  padding: 21px 129px 21px 129px;
+  background-color: #2d72cd;
+}
+.panel__button div {
+  margin-top: 41px;
+  margin-bottom: 29px;
+}
+.panel__button p {
+  max-width: 400px;
+  font-size: 15px;
+  padding-bottom: 75px;
+}
+.panel picture {
+  position: absolute;
+  top:-94px;
+  right: 341px;
 }
