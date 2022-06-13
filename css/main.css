@@ -28,7 +28,7 @@
   padding-left: 11px;
 }
 .menu a:hover {
-  opacity: 0.7;
+  background-color: #213252;
 }
 .menu a {
   font-size: 16px;
@@ -104,7 +104,7 @@ main {
   position: relative;
 }
 .text__link:hover {
-  opacity: 0.7;
+  background-color: #213252;
 }
 .text__button {
   position: absolute;
@@ -135,7 +135,7 @@ main {
   margin-left: 20px;
 }
 .text__button:hover {
-  opacity: 0.9;
+  background-color: #8a500c;
 }
 .products {
   margin-top: 106px;
@@ -260,6 +260,9 @@ main {
   padding: 21px 129px 21px 129px;
   background-color: #2d72cd;
 }
+.panel__button a:hover {
+  background-color: #21262d;
+}
 .panel__button div {
   margin-top: 41px;
   margin-bottom: 29px;
@@ -295,6 +298,7 @@ main {
 .stock__assortment {
   display: flex;
   margin-top: 61px;
+  justify-content: space-between;
 }
 .stock__line {
   display: flex;
@@ -303,4 +307,21 @@ main {
 }
 .stock__line h6 span {
   font-weight: 400;
+}
+.stock__line--margin {
+  margin-top: 0;
+}
+.stock__image {
+  max-width: 712px;
+  position: relative;
+}
+.stock__image p {
+  position: absolute;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  background: #211D1D;
+  padding: 17px 151px 16px 49px;
+  top: 491px;
 }
