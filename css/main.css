@@ -321,7 +321,17 @@ main {
   font-size: 18px;
   line-height: 28px;
   color: white;
-  background: #211D1D;
+  background: #211d1d;
   padding: 17px 151px 16px 49px;
   top: 491px;
+}
+.stock__panel {
+  margin-top: 179px;
+  font-weight: 600;
+  color: white;
+  font-size: 40px;
+  line-height: 52px;
+  padding: 55px 166px 54px 233px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(26, 44, 65, 0.79), rgba(26, 44, 65, 0.79)), url(../img/image20.png);
 }
