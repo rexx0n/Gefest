@@ -366,15 +366,13 @@ main {
 .info__country {
   margin-left: 119px;
   position: relative;
-  
-
-  
 }
 .info__market {
   position: absolute;
-  bottom: 188px;
-  left: 40px;
+  bottom: 193px;
+  left: 45px;
 }
+
 .info__market2 {
   position: absolute;
   left: 35.5px;
@@ -387,6 +385,16 @@ main {
 }
 .info__arrow {
   position: absolute;
-  left: 45px ;
+  left: 45px;
   bottom: 159px;
+}
+.info__arrow2 {
+  position: absolute;
+  top: 71px;
+  left: 54px;
+}
+.info__cross {
+  position: absolute;
+  top: 18px;
+  left: 266px;
 }
