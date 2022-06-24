@@ -369,14 +369,14 @@ main {
 }
 .info__market {
   position: absolute;
-  bottom: 193px;
+  top: 60px;
   left: 45px;
 }
 
 .info__market2 {
   position: absolute;
-  left: 35.5px;
-  bottom: 172px;
+  left: 35px;
+  top: 81px;
 }
 .info__market3 {
   position: absolute;
@@ -386,7 +386,7 @@ main {
 .info__arrow {
   position: absolute;
   left: 45px;
-  bottom: 159px;
+  top: 92px;
 }
 .info__arrow2 {
   position: absolute;
@@ -397,4 +397,24 @@ main {
   position: absolute;
   top: 18px;
   left: 266px;
+}
+.info__country p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+}
+.info__text {
+  position: absolute;
+  top: 22px;
+  left: 61px;
+}
+.info__text2 {
+  position: absolute;
+  left: 99px;
+  top: 62px;
+}
+.info__text3 {
+  position: absolute;
+  top: 44px;
+  left: -14px;
 }
