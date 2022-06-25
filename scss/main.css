@@ -418,3 +418,27 @@ main {
   top: 44px;
   left: -14px;
 }
+.info__img {
+  display: flex;
+  padding-left: 173px;
+}
+.info__tick {
+  position: absolute;
+  top: 187px;
+  right: 33px;
+}
+.info__icon {
+  position: absolute;
+  top: 256px;
+  left: 226px;
+}
+.info__arrow3 {
+  position: absolute;
+  top: 273px;
+  left: 224px;
+}
+.info__icon2 {
+  position: absolute;
+  top: 288px;
+  left: 221px;
+}
