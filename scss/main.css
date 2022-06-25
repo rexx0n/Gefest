@@ -442,3 +442,19 @@ main {
   top: 288px;
   left: 221px;
 }
+.info__row--width2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__row--width2 h4 {
+  max-width: 311px;
+}
+.info__row--width {
+  margin-top: 57px;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__row--width h4 {
+  max-width: 454px;
+}
