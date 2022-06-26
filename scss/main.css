@@ -458,3 +458,16 @@ main {
 .info__row--width h4 {
   max-width: 454px;
 }
+.form {
+  background-color: #f6f6f6;
+}
+.form__panel {
+  display: flex;
+  padding-top: 88px;
+}
+.form__info h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  max-width: 400px;
+}
