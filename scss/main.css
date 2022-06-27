@@ -460,14 +460,41 @@ main {
 }
 .form {
   background-color: #f6f6f6;
+  margin-top: 81px;
+  height: 763px;
 }
 .form__panel {
   display: flex;
-  padding-top: 88px;
+  position: relative;
 }
 .form__info h1 {
   font-weight: 700;
   font-size: 42px;
   line-height: 50px;
   max-width: 400px;
+  padding-top: 88px;
+}
+.form__info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 349px;
+  margin-top: 38px;
+}
+.form__panel picture {
+  position: absolute;
+  left: 244px;
+}
+.form__info .form__panel2 p {
+  padding: 33px 26px 32px 29px;
+  max-width: 491px;
+  left: 143px;
+  top: 479px;
+  position: absolute;
+  border-radius: 8px;
+  background-color: white;
+}
+.form__info .form__panel2 a {
+  text-decoration: none;
+  color: #19539f;
 }
