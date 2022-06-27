@@ -466,13 +466,13 @@ main {
 .form__panel {
   display: flex;
   position: relative;
+  padding-top: 88px;
 }
 .form__info h1 {
   font-weight: 700;
   font-size: 42px;
   line-height: 50px;
   max-width: 400px;
-  padding-top: 88px;
 }
 .form__info p {
   font-weight: 400;
@@ -484,6 +484,7 @@ main {
 .form__panel picture {
   position: absolute;
   left: 244px;
+  top: 0px;
 }
 .form__info .form__panel2 p {
   padding: 33px 26px 32px 29px;
@@ -497,4 +498,49 @@ main {
 .form__info .form__panel2 a {
   text-decoration: none;
   color: #19539f;
+}
+.form__form h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+}
+.form__form {
+  margin-left: 459px;
+  max-width: 312px;
+}
+.form__form input {
+  padding: 14px 10px 14px 10px;
+  border: 1px solid #cdd6db;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.form__form div {
+  margin-top: 24px;
+}
+.form__form div p {
+  margin-bottom: 6px;
+}
+.form__form--info {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__form--info p {
+  max-width: 288px;
+}
+.form__text {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 14px;
+  padding-bottom: 18px;
+}
+.panel__buttom--padding a {
+  padding: 21px 84px 21px 84px;
 }
