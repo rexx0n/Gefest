@@ -556,6 +556,7 @@ main {
   font-weight: 600;
   font-size: 22px;
   line-height: 32px;
+  margin-bottom: 34px;
 }
 .benefits__info p {
   font-weight: 400;
@@ -571,4 +572,32 @@ main {
   position: absolute;
   top: 59px;
   left: 207px;
+}
+.line {
+  color: #aeb6bb;
+}
+.benefits__logo {
+  display: flex;
+  flex-direction: column;
+}
+.benefits__logo div {
+  display: flex;
+  align-items: center;
+}
+.benefits__logo p {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #035491;
+  max-width: 113px;
+}
+.benefits__info--div div {
+  margin: 0;
+}
+.benefits__arcelor {
+  max-width: 182px;
+  max-height: 76px;
+}
+.benefits__company {
+  display: flex;
 }
