@@ -544,3 +544,31 @@ main {
 .panel__buttom--padding a {
   padding: 21px 84px 21px 84px;
 }
+.benefits {
+  margin-top: 127px;
+}
+.benefits__info {
+  margin-top: 86px;
+  display: flex;
+  justify-content: space-between;
+}
+.benefits__info h4 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+}
+.benefits__info p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 447px;
+}
+.benefits__info div {
+  margin-right: 160px;
+  position: relative;
+}
+.benefits__img {
+  position: absolute;
+  top: 59px;
+  left: 207px;
+}
