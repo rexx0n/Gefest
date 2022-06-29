@@ -517,6 +517,16 @@ main {
   font-size: 16px;
   line-height: 28px;
 }
+.form__text2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+.form__text2 a {
+  text-decoration: none;
+  color: #2D72CD;
+}
 .form__form div {
   margin-top: 24px;
 }
@@ -551,6 +561,7 @@ main {
   margin-top: 86px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 88px;
 }
 .benefits__info h4 {
   font-weight: 600;
@@ -579,6 +590,8 @@ main {
 .benefits__logo {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  padding-left: 100px;
 }
 .benefits__logo div {
   display: flex;
