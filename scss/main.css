@@ -15,7 +15,7 @@
   padding-top: 43px;
   padding-bottom: 21px;
 }
-.menu__h1 {
+.menu h1 {
   font-weight: 800;
   font-size: 50px;
   line-height: 24px;
@@ -461,7 +461,7 @@ main {
 .form {
   background-color: #f6f6f6;
   margin-top: 81px;
-  height: 763px;
+  padding-bottom: 84px;
 }
 .form__panel {
   display: flex;
@@ -613,4 +613,7 @@ main {
 }
 .benefits__company {
   display: flex;
+}
+.doc {
+  background: #F6F6F6;
 }
