@@ -6,6 +6,12 @@ const isProduction = process.env.NODE_ENV == "production";
 
 const stylesHandler = "style-loader";
 
+const sass = require("gulp-sass")(require("sass"));
+
+let mix = require("laravel-mix");
+
+mix.js("src/app.js", "dist").setPublicPath("dist");
+
 const config = {
   entry: "./src/index.js",
   output: {
