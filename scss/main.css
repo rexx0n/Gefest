@@ -657,3 +657,40 @@ main {
 .director__text span {
   font-weight: 600;
 }
+.director__info {
+  max-width: 575px;
+  position: absolute;
+  right: 0;
+  margin-top: 225px;
+}
+.director__info h2 {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+  margin-bottom: 27px;
+}
+.director__info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 23px;
+  color: white;
+}
+.director__info span {
+  color: #1c5aac;
+}
+.director__info form span {
+  font-weight: 600;
+  color: white;
+}
+form {
+  padding: 28px 104px 40px 104px;
+  background: #1a2c41;
+}
+form div {
+  max-width: 504px;
+  width: 100%;
+}
+.director__info input[type="text"] {
+  padding: 14px 0 14px 10px;
+}
