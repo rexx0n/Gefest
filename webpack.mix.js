@@ -1,2 +1,7 @@
 let mix = require("laravel-mix");
-mix.js("src/app.js", "dist").setPublicPath("dist");
+require("laravel-mix-blade-reload");
+mix
+  .js("src/app.js", "dist")
+  .setPublicPath("./")
+  .sass("sass/main.scss", "dist")
+  .bladeReload({ path: "./*.html" });
