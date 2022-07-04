@@ -17,7 +17,6 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-
     color: white;
     text-decoration: none;
     margin-top: 41px;
@@ -27,12 +26,12 @@
     background-color: #2d72cd;
     text-align: center;
     max-width: 400px;
+    &:hover {
+      background-color: #213252;
+    }
   }
   &__column {
     position: relative;
-  }
-  &__link:hover {
-    background-color: #213252;
   }
   &__button {
     position: absolute;
@@ -42,6 +41,9 @@
     max-width: 300px;
     top: 492px;
     left: 471px;
+    &:hover {
+      background-color: #8a500c;
+    }
   }
   &__text {
     display: flex;
@@ -53,16 +55,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-  }
-  &__text svg {
-    width: 32px;
-    height: 42px;
-  }
-  &__text p {
-    max-width: 200px;
-    margin-left: 20px;
-  }
-  &__button:hover {
-    background-color: #8a500c;
+    p {
+      max-width: 200px;
+      margin-left: 20px;
+    }
   }
 }
