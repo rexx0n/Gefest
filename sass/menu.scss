@@ -17,5 +17,32 @@
     max-width: 217px;
     padding-left: 11px;
   }
-  
+  & a:hover {
+    color: #213252;
+  }
+  & a {
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    padding: 14px 15px 14px 15px;
+    background-color: #2d72cd;
+    text-decoration: none;
+    margin-left: 200px;
+  }
+  &__contacts h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  &__contacts {
+    text-align: right;
+    margin-left: 130px;
+    a {
+      padding: 0;
+      color: #5284f7;
+      margin: 0;
+      background-color: white;
+      text-decoration: underline;
+    }
+  }
 }
