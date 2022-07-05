@@ -2,6 +2,7 @@
 @import "container";
 @import "text";
 @import "products";
+@import "panel";
 * {
   margin: 0;
   padding: 0;
@@ -22,46 +23,6 @@ main {
   margin-top: 168px;
   margin-bottom: 70px;
 }
-.panel {
-  margin-top: 127px;
-}
-
-.panel {
-  background-color: #1a2c41;
-  color: white;
-  position: relative;
-}
-.panel h1 {
-  padding-top: 76px;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 52px;
-  max-width: 530px;
-}
-.panel__form div p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  margin-top: 24px;
-}
-.panel__form div input {
-  padding: 14px 56px 14px 10px;
-  font-weight: 400;
-  font-size: 16px;
-}
-.panel__form {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 610px;
-  width: 100%;
-  justify-content: space-between;
-  margin-bottom: 8px;
-}
-.panel__form div select {
-  padding: 14px 56px 14px 10px;
-  font-weight: 400;
-  font-size: 14.5px;
-}
 .panel__button a {
   text-decoration: none;
   color: white;
@@ -79,11 +40,6 @@ main {
   max-width: 400px;
   font-size: 15px;
   padding-bottom: 75px;
-}
-.panel picture {
-  position: absolute;
-  top: -94px;
-  right: 341px;
 }
 .stock h2 {
   font-weight: 600;
