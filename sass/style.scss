@@ -6,106 +6,12 @@
 @import"stock";
 @import "hr";
 @import "header";
+@import "form";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-}
-.info__country {
-  margin-left: 119px;
-  position: relative;
-}
-.info__market {
-  position: absolute;
-  top: 60px;
-  left: 45px;
-}
-
-.info__market2 {
-  position: absolute;
-  left: 35px;
-  top: 81px;
-}
-.info__market3 {
-  position: absolute;
-  left: 86px;
-  top: 98px;
-}
-.info__arrow {
-  position: absolute;
-  left: 45px;
-  top: 92px;
-}
-.info__arrow2 {
-  position: absolute;
-  top: 71px;
-  left: 54px;
-}
-.info__cross {
-  position: absolute;
-  top: 18px;
-  left: 266px;
-}
-.info__country p {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 13px;
-}
-.info__text {
-  position: absolute;
-  top: 22px;
-  left: 61px;
-}
-.info__text2 {
-  position: absolute;
-  left: 99px;
-  top: 62px;
-}
-.info__text3 {
-  position: absolute;
-  top: 44px;
-  left: -14px;
-}
-.info__img {
-  display: flex;
-  padding-left: 173px;
-}
-.info__tick {
-  position: absolute;
-  top: 187px;
-  right: 33px;
-}
-.info__icon {
-  position: absolute;
-  top: 256px;
-  left: 226px;
-}
-.info__arrow3 {
-  position: absolute;
-  top: 273px;
-  left: 224px;
-}
-.info__icon2 {
-  position: absolute;
-  top: 288px;
-  left: 221px;
-}
-.info__row--width2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.info__row--width2 h4 {
-  max-width: 311px;
-}
-.info__row--width {
-  margin-top: 57px;
-  justify-content: space-between;
-  align-items: center;
-}
-.info__row--width h4 {
-  max-width: 454px;
 }
 .form {
   background-color: #f6f6f6;
