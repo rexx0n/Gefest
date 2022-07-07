@@ -9,102 +9,15 @@
 @import "form";
 @import "main2";
 @import "info";
+@import "benefits";
+@import "documents";
+@import "line";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-}
-.form__text {
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 16px;
-  margin-top: 14px;
-  padding-bottom: 18px;
-}
-.panel__buttom--padding a {
-  padding: 21px 84px 21px 84px;
-}
-.benefits {
-  margin-top: 127px;
-}
-.benefits__info {
-  margin-top: 86px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 88px;
-}
-.benefits__info h4 {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 32px;
-  margin-bottom: 34px;
-}
-.benefits__info p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  width: 447px;
-}
-.benefits__info div {
-  margin-right: 160px;
-  position: relative;
-}
-.benefits__img {
-  position: absolute;
-  top: 59px;
-  left: 207px;
-}
-.line {
-  color: #aeb6bb;
-}
-.benefits__logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 100px;
-}
-.benefits__logo div {
-  display: flex;
-  align-items: center;
-}
-.benefits__logo p {
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 45px;
-  color: #035491;
-  max-width: 113px;
-}
-.benefits__info--div div {
-  margin: 0;
-}
-.benefits__arcelor {
-  max-width: 182px;
-  max-height: 76px;
-}
-.benefits__company {
-  display: flex;
-}
-.doc {
-  background: #f6f6f6;
-}
-.documents h1 {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 52px;
-  padding-top: 77px;
-  padding-bottom: 23px;
-}
-.documents span {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 36px;
-  padding-bottom: 52px; /* почему не работает!*/
-}
-.documents__img {
-  padding-top: 52px;
-  padding-bottom: 57px;
-}
+}q
 .director {
   position: relative;
 }

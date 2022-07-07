@@ -1,0 +1,22 @@
+.doc {
+  background: #f6f6f6;
+}
+.documents {
+  h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 52px;
+    padding-top: 77px;
+    padding-bottom: 23px;
+  }
+  span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    padding-bottom: 52px;
+  }
+  &__img {
+    padding-top: 52px;
+    padding-bottom: 57px;
+  }
+}

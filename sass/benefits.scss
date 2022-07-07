@@ -1,0 +1,57 @@
+.benefits {
+  margin-top: 127px;
+  &__info {
+    margin-top: 86px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 88px;
+    h4 {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 34px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      width: 447px;
+    }
+    div {
+      margin-right: 160px;
+      position: relative;
+    }
+  }
+  &__img {
+    position: absolute;
+    top: 59px;
+    left: 207px;
+  }
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 100px;
+    div {
+      display: flex;
+      align-items: center;
+    }
+    p {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 45px;
+      color: #035491;
+      max-width: 113px;
+    }
+    &--div div {
+      margin: 0;
+    }
+  }
+  &__arcelor {
+    max-width: 182px;
+    max-height: 76px;
+  }
+  &__company {
+    display: flex;
+  }
+}
