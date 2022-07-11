@@ -35,7 +35,13 @@
       font-size: 16px;
       line-height: 24px;
       margin-bottom: 23px;
-      color: white;
+      color: black;
+      max-width: 613px;
+    }
+    form {
+      p {
+        color: white;
+      }
     }
     span {
       color: #1c5aac;
@@ -46,6 +52,12 @@
     }
     input[type="text"] {
       padding: 14px 0 14px 10px;
+    }
+    div a {
+      color: white;
+      text-decoration: none;
+      padding: 19px 35px 19px 35px;
+      background-color: #1c5aac;
     }
   }
 }
