@@ -1,0 +1,23 @@
+{
+  "name": "gefest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.42",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+    "laravel-mix-blade-reload": "^3.0.0"
+  }
+}

@@ -1,0 +1,66 @@
+.panel {
+  background-color: #1a2c41;
+  color: white;
+  position: relative;
+  margin-top: 127px;
+  picture {
+    position: absolute;
+    top: -58px;
+    right: 341px;
+  }
+  h1 {
+    padding-top: 76px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    max-width: 530px;
+  }
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 610px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    div p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      margin-top: 35px;
+      margin-bottom: 11px;
+    }
+    div input {
+      padding: 14px 56px 14px 10px;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    div select {
+      padding: 14px 56px 14px 10px;
+      font-weight: 400;
+      font-size: 14.5px;
+    }
+  }
+  &__button {
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 21px 84px 21px 84px;
+      background-color: #2d72cd;
+      &:hover {
+        background-color: #21262d;
+      }
+    }
+    div {
+      margin-top: 41px;
+      margin-bottom: 29px;
+    }
+    p {
+      max-width: 400px;
+      font-size: 15px;
+      padding-bottom: 75px;
+    }
+    &--padding a {
+      padding: 21px 84px 21px 84px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "menu";
+@import "container";
+@import "text";
+@import "products";
+@import "panel";
+@import"stock";
+@import "hr";
+@import "header";
+@import "form";
+@import "main2";
+@import "info";
+@import "benefits";
+@import "documents";
+@import "line";
+@import "director";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}

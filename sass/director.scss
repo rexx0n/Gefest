@@ -1,0 +1,63 @@
+.director {
+  position: relative;
+  picture {
+    position: absolute;
+    left: -344px;
+  }
+  &__text {
+    padding: 21px 19px 21px 14px;
+    background: #ffffff;
+    border-radius: 8px;
+    color: black;
+    position: absolute;
+    max-width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    top: 741px;
+    span {
+      font-weight: 600;
+    }
+  }
+  .director__info {
+    max-width: 575px;
+    position: absolute;
+    right: 0;
+    margin-top: 225px;
+    h2 {
+      font-weight: 600;
+      font-size: 23px;
+      line-height: 32px;
+      margin-bottom: 27px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 23px;
+      color: black;
+      max-width: 613px;
+    }
+    form {
+      p {
+        color: white;
+      }
+    }
+    span {
+      color: #1c5aac;
+    }
+    form span {
+      font-weight: 600;
+      color: white;
+    }
+    input[type="text"] {
+      padding: 14px 0 14px 10px;
+    }
+    div a {
+      color: white;
+      text-decoration: none;
+      padding: 19px 35px 19px 35px;
+      background-color: #1c5aac;
+    }
+  }
+}
