@@ -17,10 +17,10 @@
       line-height: 30px;
       width: 447px;
     }
-    div {
-      margin-right: 160px;
-      position: relative;
-    }
+  }
+  &__img--logo {
+    width: 218px;
+    height: 80px;
   }
   &__img {
     position: absolute;
@@ -53,5 +53,6 @@
   }
   &__company {
     display: flex;
+    max-width: 527px;
   }
 }
