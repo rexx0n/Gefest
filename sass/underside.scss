@@ -1,0 +1,22 @@
+footer {
+  background-color: #121415;
+}
+.underside {
+    padding-top: 54px;
+  &__logo {
+    display: flex;
+    align-items: center;
+    h1 {
+      font-weight: 800;
+      font-size: 50px;
+      color: #b9c1d1;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: white;
+      max-width: 217px;
+    }
+  }
+}
