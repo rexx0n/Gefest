@@ -41,11 +41,12 @@
     }
   }
   &__button {
-    a {
+    button {
       text-decoration: none;
       color: white;
       padding: 21px 84px 21px 84px;
       background-color: #2d72cd;
+      border: none; 
       &:hover {
         background-color: #21262d;
       }
@@ -59,8 +60,9 @@
       font-size: 15px;
       padding-bottom: 75px;
     }
-    &--padding a {
+    &--padding button {
       padding: 21px 84px 21px 84px;
+      
     }
   }
 }
