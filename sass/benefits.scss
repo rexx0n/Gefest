@@ -57,5 +57,11 @@
   &__company {
     display: flex;
     max-width: 527px;
+    &__company {
+      display: flex;
+      max-width: 527px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
   }
 }

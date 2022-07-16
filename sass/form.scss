@@ -75,6 +75,9 @@
       p {
         max-width: 288px;
       }
+      input[type="file"] {
+        display: none;
+      }
     }
   }
   &__text2 {

@@ -20,6 +20,9 @@
     padding-bottom: 40px;
   }
   &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     form {
       padding: 28px 104px 40px 104px;
       background-color: #1a2c41;
@@ -51,13 +54,11 @@
       font-size: 23px;
       line-height: 32px;
       margin-bottom: 27px;
-      max-width: 575px;
     }
     p {
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
-      max-width: 575px;
       margin-bottom: 23px;
       span {
         color: #1c5aac;
@@ -65,5 +66,6 @@
     }
   }
   &__paragr {
+    max-width: 575px;
   }
 }
