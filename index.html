@@ -74,11 +74,11 @@
                 <p>Посмотрите какие товарные группы есть в наличии в Новосибирске</p>
                 <div class="products__goods">
                     <div class="products__item">
-                        <div>
+                        <div data-1="1">
                             <img src="img/circle.png" alt="круг">
                             <p>Штрипс, лента оцинкованная</p>
                         </div>
-                        <div>
+                        <div data-2="2">
                             <svg width="38" height="34" viewBox="0 0 38 34" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -87,7 +87,7 @@
                             </svg>
                             <p>Сетка</p>
                         </div>
-                        <div>
+                        <div data-3="3">
                             <svg width="41" height="35" viewBox="0 0 41 35" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -96,7 +96,7 @@
                             </svg>
                             <p>Профиль оцинкованный</p>
                         </div>
-                        <div>
+                        <div data-4="4">
                             <svg width="48" height="34" viewBox="0 0 48 34" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -105,7 +105,7 @@
                             </svg>
                             <p>Профнастил</p>
                         </div>
-                        <div>
+                        <div data-5="5">
                             <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -114,7 +114,7 @@
                             </svg>
                             <p>Черный металлопрокат</p>
                         </div>
-                        <div>
+                        <div data-6="6">
                             <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -124,9 +124,9 @@
                             <p>Изделия на заказ</p>
                         </div>
                     </div>
-                    <div class="products__info">
+                    <div data-1="1" class="products__info">
                         <picture>
-                            <img src="img/Rectangle8.png" alt="">
+                            <img src="img/Rectangle8.png" alt="лента">
                         </picture>
                         <div>
                             <h4>Штрипс, лента оцинкованная</h4>
@@ -138,6 +138,19 @@
                             <a href="#">Узнать стоимость</a>
                         </div>
                     </div>
+                    <div data-2="2" class="products__info--none">
+                        <picture>
+                            <img src="img/imgsetka.png" alt="Сетка">
+                        </picture>
+                        <div>
+                            <h4>Сетка</h4>
+                            <ul>
+                                <li>Сетка сварная</li>
+                                <li>Сетка ПВЛ</li>
+                            </ul>
+                            <a href="#">Узнать стоимость</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -145,38 +158,39 @@
     <div class="panel">
         <div class="container">
             <h1>Получите полный каталог и прайс на металлопрокат</h1>
-            <div class="panel__form">
-                <div>
-                    <p>Куда отправить прайс и каталог?</p>
-                    <input class="contacts__textfield" placeholder="E-mail" type="email" name="2">
+            <form action="thanks.html">
+                <div class="panel__form">
+                    <div>
+                        <p> <label for="email">Куда отправить прайс и каталог?</label> </p>
+                        <input class="contacts__textfield" placeholder="E-mail" type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <p> <label for="select">Какую компанию вы представляете?</label> </p>
+                        <select name="Торговая компания, магазин" id="select">
+                            <option>Торговая компания, магазин</option>
+                            <option>a</option>
+                            <option>b</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p> <label for="name">Как к вам обращаться?</label> </p>
+                        <input class="contacts__textfield" placeholder="Ваше имя" type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <p> <label for="phone">Введите телефон</label> </p>
+                        <input class="contacts__textfield" placeholder="+ 7 ( _ _ _ ) - _ _ _ - _ _ - _ _" type="text"
+                            name="phone" id="phone">
+                    </div>
                 </div>
-                <div>
-                    <p>Какую компанию вы представляете?</p>
-                    <select name="Торговая компания, магазин" id="">
-                        <option>Торговая компания, магазин</option>
-                        <option>a</option>
-                        <option value="">b</option>
-                    </select>
+                <p>Перезвоним, чтобы обсудить условия поставки</p>
+                <div class="panel__button">
+                    <div><button type="submit">Узнать стоимость</button></div>
+                    <p>Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с
+                        Политикой
+                        конфиденциальности
+                    </p>
                 </div>
-                <div>
-                    <p>Как к вам обращаться?</p>
-                    <input class="contacts__textfield" placeholder="Ваше имя" type="text" name="">
-                </div>
-                <div>
-                    <p>Введите телефон</p>
-                    <input class="contacts__textfield" placeholder="+ 7 ( _ _ _ ) - _ _ _ - _ _ - _ _" type="text"
-                        name="">
-                </div>
-            </div>
-            <p>Перезвоним, чтобы обсудить условия поставки</p>
-            <div class="panel__button">
-                <div><a href="#">Узнать стоимость</a></div>
-
-                <p>Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с
-                    Политикой
-                    конфиденциальности
-                </p>
-            </div>
+            </form>
         </div>
         <picture>
             <img src="img/image19.png" alt="мужик">
@@ -347,7 +361,6 @@
     <div class="form">
         <div class="container">
             <div class="form__panel">
-                <picture><img src="img/image24.png" alt="мужик"></picture>
                 <div class="form__info">
 
                     <h1>
@@ -371,27 +384,24 @@
                             на поставку металлопроката</h4>
                         <div>
                             <label for="name">Как к вам обращаться?</label>
-                            <input class="contacts__textfield" placeholder="Ваше имя" id= "name" type="text" name="name">
+                            <input class="contacts__textfield" placeholder="Ваше имя" id="name" type="text" name="name">
                         </div>
                         <div>
-                            <p>Введите телефон</p>
+                            <label for="phone">Введите телефон</label>
                             <input class="contacts__textfield" placeholder="+ 7 ( _ _ _ ) - _ _ _ - _ _ - _ _"
-                                type="text" name="phone">
+                                type="text" id="phone" name="phone">
                         </div>
                         <div>
-                            <p>Куда отправить прайс и каталог?</p>
-                            <input class="contacts__textfield" placeholder="E-mail" type="email" name="email">
+                            <label for="email">Куда отправить прайс и каталог?</label>
+                            <input class="contacts__textfield" placeholder="E-mail" id="email" type="email"
+                                name="email">
                         </div>
                         <div class="form__form--info">
-                            
-                            <input type="file" name="file" id = "file">
-                            <label for="file"> <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M7 19.75C3.27208 19.75 0.25 16.7279 0.25 13L0.249999 5C0.249999 2.37665 2.37665 0.25 5 0.25C7.62335 0.25 9.75 2.37665 9.75 5L9.75 13.1429C9.75 14.6616 8.51878 15.8929 7 15.8929C5.48122 15.8929 4.25 14.6616 4.25 13.1429L4.25 5.28571C4.25 4.8715 4.58579 4.53571 5 4.53571C5.41421 4.53571 5.75 4.8715 5.75 5.28571L5.75 13.1429C5.75 13.8332 6.30964 14.3929 7 14.3929C7.69036 14.3929 8.25 13.8332 8.25 13.1429L8.25 5C8.25 3.20507 6.79492 1.75 5 1.75C3.20507 1.75 1.75 3.20507 1.75 5L1.75 13C1.75 15.8995 4.10051 18.25 7 18.25C9.8995 18.25 12.25 15.8995 12.25 13L12.25 5.28571C12.25 4.8715 12.5858 4.53571 13 4.53571C13.4142 4.53571 13.75 4.8715 13.75 5.28571L13.75 13C13.75 16.7279 10.7279 19.75 7 19.75Z"
-                                    fill="black" />
-                            </svg> Прикрепите файлы (заказ,спецификацию, смету, если есть)</label>
+                            <input type="file" name="file" id="file">
+                            <label for="file"> <img src="img/Icon.png" alt="скрепка"> </label>
+                            <label for="file">Прикрепите файлы (заказ,спецификацию, смету, если есть)</label>
                         </div>
-                        <p class="form__text">Или напишите нам на почту <b>info@tpk-gefest.ru</b> </p>
+                        <p class="form__text">Или напишите нам на почту <b> info@tpk-gefest.ru</b> </p>
                         <div class="panel__button panel__buttom--padding">
                             <div><button type="submit">Узнать стоимость</button></div>
                         </div>
@@ -568,6 +578,7 @@
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 
 </html>

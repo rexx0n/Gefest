@@ -2,15 +2,14 @@
   background-color: #f6f6f6;
   margin-top: 81px;
   padding-bottom: 84px;
+  background-image: url(../img/image24.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-position-x: 588px;
   &__panel {
     display: flex;
     position: relative;
     padding-top: 88px;
-    picture {
-      position: absolute;
-      left: 244px;
-      top: 0px;
-    }
   }
   &__info {
     h1 {
