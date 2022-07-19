@@ -44,45 +44,9 @@
   }
   &__info {
     display: flex;
-    &--flex {
-      display: flex;
-    }
+    
     &--none{
       display: none;
-      h4 {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 36px;
-      }
-      ul {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 28px;
-      }
-      div {
-        padding-left: 60px;
-        padding-top: 108px;
-        width: 100%;
-        border-left: 1px solid #aeb6bb;
-        border-top: 1px solid #aeb6bb;
-      }
-      a {
-        padding: 14px 52px 14px 52px;
-        text-decoration: none;
-        background-color: #2d72cd;
-        color: white;
-      }
-      &:hover a {
-        background-color: #213252;
-      }
-      ul {
-        padding-left: 20px;
-        margin-bottom: 209px;
-        margin-top: 18px;
-      }
-      picture {
-        max-height: 590px;
-      }
     }
     h4 {
       font-weight: 600;
