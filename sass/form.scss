@@ -71,6 +71,11 @@
       line-height: 16px;
       justify-content: space-between;
       align-items: center;
+      label {
+        img {
+          margin-right: 9px;
+        }
+      }
       p {
         max-width: 288px;
       }
