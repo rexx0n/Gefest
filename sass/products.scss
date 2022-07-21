@@ -29,21 +29,23 @@
     border: 1px solid #aeb6bb;
     margin-top: 33px;
   }
-  &__item {
+  &__items {
     display: flex;
+  }
+  &__item {
+    border-right: 1px solid #aeb6bb;
+    text-align: center;
+    padding: 23px 30px 23px 30px;
+    width: 100%;
+    text-decoration: none;
+    color: #606774;
     p {
       font-weight: 400;
       font-size: 16px;
       line-height: 20px;
     }
-    div {
-      border-right: 1px solid #aeb6bb;
-      text-align: center;
-      padding: 23px 30px 23px 30px;
-      width: 100%;
-      &:hover {
-        background-color: #edf1f4;
-      }
+    &:hover {
+      background-color: #edf1f4;
     }
   }
 
@@ -55,7 +57,7 @@
       margin-top: -68px;
       margin-bottom: 50px;
       display: flex;
-      flex-wrap:wrap;
+      flex-wrap: wrap;
       ul {
         margin: 0;
       }

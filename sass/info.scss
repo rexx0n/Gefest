@@ -21,6 +21,11 @@
   }
   &__country {
     margin-left: 119px;
+    
+    >div:last-child {
+      margin-left: 183px;
+      margin-top: -26px;
+    }
   }
   &__row--width2 {
     display: flex;
