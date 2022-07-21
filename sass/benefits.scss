@@ -17,18 +17,10 @@
       line-height: 30px;
       width: 447px;
     }
-    div {
-      position: relative;
-    }
   }
   &__img--logo {
     width: 218px;
     height: 80px;
-  }
-  &__img {
-    position: absolute;
-    top: 59px;
-    left: 207px;
   }
   &__logo {
     display: flex;
