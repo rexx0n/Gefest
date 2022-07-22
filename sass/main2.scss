@@ -4,3 +4,11 @@ main {
   margin-top: 168px;
   margin-bottom: 70px;
 }
+@media screen and (max-width: 1200px) {
+  main {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 41px;
+    flex-direction: column;
+  }
+}

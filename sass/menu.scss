@@ -6,6 +6,9 @@
   &__info {
     display: flex;
   }
+  &__svg {
+    display: none;
+  }
   &__logo {
     display: flex;
     align-items: center;
@@ -27,6 +30,9 @@
     color: #213252;
   }
   & a {
+    svg:first-child {
+      display: none;
+    }
     font-size: 16px;
     line-height: 19px;
     color: white;
@@ -54,7 +60,11 @@
 }
 @media screen and (max-width: 1200px) {
   .menu {
+    padding-top: 24px;
     flex-direction: column;
+    &__svg{
+      display: block;
+    }
     h1 {
       font-size: 31px;
     }
@@ -64,12 +74,17 @@
     }
     a {
       font-size: 10px;
-      padding: 10px 3px 10px 3px;
-      line-height: 12px;
+      padding: 5px 4px 5px 4px;
       margin: 0px;
     }
+    &__logo {
+      margin-bottom: 21px;
+    }
     &__contacts {
-      margin-left: 0;
+      margin-left: 9px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
       h4 {
         font-size: 10px;
         line-height: 12px;
@@ -77,6 +92,8 @@
       a {
         font-size: 7px;
         line-height: 9px;
+        display: flex ;
+        align-items: center;
       }
     }
   }
