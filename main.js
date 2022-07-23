@@ -10,3 +10,16 @@ productsItems.forEach((product) => {
     productInfo.classList.remove("products__info--none");
   });
 });
+let options = document.querySelectorAll(".products__option")
+options.forEach((option)=> {
+  option.addEventListener("click", function (event) {
+    event.preventDefault()
+    console.log("ADSDA")
+    document.querySelectorAll(".products__media > div").forEach((el)=> {
+      el.classList.add("products__info--none")
+    });
+    let media = document.querySelector(".products__media")
+    let productInfoMedia = media.querySelector(`.${this.id}`)
+    productInfoMedia.classList.remove("products__info--none")
+  })
+})
