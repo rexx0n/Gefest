@@ -101,5 +101,16 @@
         top: 155px;
       }
     }
+    &__panel {
+      margin-top: 70px;
+      font-size: 18px;
+      line-height: 32px;
+      padding: 64px 30px 50px 24px;
+      margin-left: -24px;
+      margin-right: -24px;
+      border-radius: 0;
+      background-position-x: center;
+      background-image: url(../img/image20.png);;
+    }
   }
 }

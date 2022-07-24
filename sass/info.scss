@@ -22,7 +22,7 @@
   &__country {
     margin-left: 119px;
     flex: 1 0 auto;
-    >div:last-child {
+    > div:last-child {
       margin-left: 183px;
       margin-top: -26px;
       display: flex;
@@ -43,6 +43,51 @@
     align-items: center;
     h4 {
       max-width: 454px;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .info {
+    margin-top: 48px;
+    &__row {
+      flex-direction: column;
+      h4 {
+        font-size: 18px;
+        line-height: 22px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 16px;
+      }
+      &--width2 {
+        flex-direction: column-reverse;
+        margin-top: 73px;
+        p {
+          margin-top: 23px;
+        }
+        img {
+          width: 305px;
+
+        }
+      }
+      &--width {
+        margin-top: 94px;
+        img {
+          width: 284px;
+          margin-top: 44px;
+        }
+      }
+    }
+    &__country {
+      margin: 0;
+      img {
+        width: 280px;
+        height: 142px;
+      }
+      div:last-child {
+        margin: 0;
+        justify-content: flex-start;
+      }
     }
   }
 }

@@ -102,3 +102,74 @@
     padding-bottom: 18px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .form {
+    background: url(../img/image241.png);
+    background-position: bottom;
+    background-position-x: 1px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding-bottom: 0;
+    &__panel {
+      padding-top: 30px;
+      flex-direction: column;
+    }
+    &__info {
+      h1 {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+      }
+      .form__panel2 p {
+        left: 0;
+        top: 1140px;
+        padding: 18px 19px 17px 19px;
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+    &__form {
+      max-width: 260px;
+      margin: 0;
+      margin-top: 61px;
+      padding-bottom: 519px;
+
+      h4 {
+        font-size: 16px;
+        line-height: 18px;
+      }
+      div {
+        label {
+          font-size: 14px;
+          line-height: 28px;
+        }
+        input {
+          font-size: 13px;
+          line-height: 28px;
+          padding: 14px 88px 14px 10px;
+        }
+      }
+      .panel__button--padding button {
+        padding: 21px 71px 21px 71px;
+      }
+      .form__form--info {
+        label {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 16px;
+      padding: 0;
+    }
+    &__text2 {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+}
