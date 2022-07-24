@@ -38,6 +38,7 @@
       padding: 14px 56px 14px 10px;
       font-weight: 400;
       font-size: 14.5px;
+      color: #65677c;
     }
   }
   &__button {
@@ -46,7 +47,7 @@
       color: white;
       padding: 21px 84px 21px 84px;
       background-color: #2d72cd;
-      border: none; 
+      border: none;
       &:hover {
         background-color: #21262d;
       }
@@ -62,7 +63,50 @@
     }
     &--padding button {
       padding: 21px 84px 21px 84px;
-      
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .panel {
+    margin-top: 45px;
+    h1 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__form {
+      div {
+        p {
+          font-size: 14px;
+          line-height: 28px;
+        }
+        input {
+          font-size: 12px;
+          line-height: 28px;
+          padding: 9px 105px 9px 10px;
+        }
+        select {
+          padding: 16px 79px 16px 10px;
+          font-size: 12px;
+          line-height: 28px;
+        }
+      }
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &__button {
+      div {
+        margin-top: 14px;
+      }
+      button {
+        padding: 16px 74px 16px 74px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 68px;
+      }
     }
   }
 }

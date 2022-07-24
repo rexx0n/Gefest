@@ -61,3 +61,45 @@
       url(../img/image20.png);
   }
 }
+@media screen and (max-width: 1200px) {
+  .stock {
+    margin-top: 42px;
+    h2 {
+      font-size: 16px;
+      line-height: 24px;
+      span {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+    &__assortment {
+      margin-top: 41px;
+      flex-direction: column;
+    }
+    &__line {
+      img {
+        width: 124px;
+        height: 82px;
+      }
+      h6 {
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+    &__image {
+      margin-top: 34px;
+      img {
+        width: 267px;
+        height: 217px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 9px 8px 5px 18px;
+        max-width: 267px;
+        top: 155px;
+      }
+    }
+  }
+}
