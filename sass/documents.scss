@@ -15,8 +15,41 @@
     line-height: 36px;
     padding-bottom: 52px;
   }
-  &__img {
+  &__imges {
     padding-top: 52px;
     padding-bottom: 57px;
+    &--media {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .documents {
+    h1 {
+      font-size: 18px;
+      line-height: 24px;
+      padding-top: 51px;
+    }
+    span {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    &__img {
+      display: flex;
+      align-items: center;
+      img {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+    }
+    &__img--none {
+      display: none;
+    }
+    &__images {
+      display: none;
+      &--media {
+        display: block;
+      }
+    }
   }
 }

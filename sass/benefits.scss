@@ -15,7 +15,7 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 30px;
-      width: 447px;
+      max-width: 447px;
     }
   }
   &__img--logo {
@@ -54,6 +54,40 @@
       max-width: 527px;
     }
   }
-  @media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1200px) {
+  .benefits {
+    margin-top: 74px;
+    h1 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &__info {
+      flex-direction: column;
+      margin-top: 45px;
+      margin-bottom: 46px;
+      h4 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 14px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 50px;
+      }
+      img {
+        max-width: 276px;
+      }
+    }
+    &__company {
+      justify-content: space-between;
+    }
+    &__logo {
+      padding-left: 0;
+      img {
+        max-width: 108px;
+      }
+    }
   }
 }

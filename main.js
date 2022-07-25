@@ -23,3 +23,12 @@ options.forEach((option)=> {
     productInfoMedia.classList.remove("products__info--none")
   })
 })
+
+let images = document.querySelectorAll(".documents__img")
+console.log(images)
+images.forEach((img) => {
+ img.addEventListener("click", function (event) {
+  let next = this.querySelector(".documents__next")
+  
+ })
+})
