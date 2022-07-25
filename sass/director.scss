@@ -46,7 +46,7 @@
         text-decoration: none;
         color: white;
         padding: 19px 35px 19px 35px;
-        background-color: #2D72CD;
+        background-color: #2d72cd;
       }
     }
     h1 {
@@ -67,5 +67,44 @@
   }
   &__paragr {
     max-width: 575px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .director {
+    background-position-x: -380px;
+    background-position-y: 868px;
+    &__info {
+      flex-direction: column-reverse;
+      padding-top: 74px;
+    }
+    &__form {
+      padding-bottom: 464px;
+      h1 {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 263px;
+      }
+      p {
+        max-width: 263px;
+        font-size: 12px;
+        line-height: 20px;
+      }
+      form {
+        padding: 37px 30px 63px 26px;
+        max-width: 320px;
+        margin-right: -24px;
+        p {
+          font-size: 14px;
+          line-height: 24px;
+        }
+        input[type="text"] {
+          padding: 14px 71px 14px 10px;
+          margin-bottom: 52px;
+        }
+        a {
+          padding: 21px 71px 21px 71px;
+        }
+      }
+    }
   }
 }

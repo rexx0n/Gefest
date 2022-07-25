@@ -15,7 +15,7 @@
     line-height: 36px;
     padding-bottom: 52px;
   }
-  &__imges {
+  &__images {
     padding-top: 52px;
     padding-bottom: 57px;
     &--media {
@@ -40,6 +40,9 @@
       img {
         padding-left: 12px;
         padding-right: 12px;
+        max-width: 258px;
+        padding-top: 53px;
+        padding-bottom: 33px;
       }
     }
     &__img--none {
