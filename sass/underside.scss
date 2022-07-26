@@ -52,6 +52,9 @@ footer {
       border-bottom: 1px dashed;
       padding-top: 9px;
     }
+    a:hover {
+      color: #254fb1;
+    }
   }
   &__info {
     margin-top: 69px;
@@ -124,7 +127,7 @@ footer {
       flex-wrap: wrap;
       margin-top: 47px;
       a {
-        margin-bottom: 34px
+        margin-bottom: 34px;
       }
     }
   }
