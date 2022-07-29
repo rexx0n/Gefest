@@ -1,7 +1,7 @@
 node_modules
-dist
 images
 hot
 .idea/vcs.xml
 .idea/Gefest.iml
 .idea/modules.xml
+package-lock.json

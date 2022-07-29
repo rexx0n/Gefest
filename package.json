@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp-gh-pages": "^0.5.4",
     "laravel-mix": "^6.0.42",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.49.7",
