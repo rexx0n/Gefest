@@ -37,9 +37,10 @@ select.addEventListener("change", function (event) {
 });
 
 let images = document.querySelectorAll(".documents__img");
-console.log(images);
 images.forEach((img) => {
-  img.addEventListener("click", function (event) {
-    let next = this.querySelector(".documents__next");
-  });
+  let next = img.querySelector(".documents__next");
+  let back = img.querySelector(".documents__back");
+  next.addEventListener("click", function (event){
+    console.log(this.parentNode)
+  })
 });
