@@ -40,7 +40,30 @@ let images = document.querySelectorAll(".documents__img");
 images.forEach((img) => {
   let next = img.querySelector(".documents__next");
   let back = img.querySelector(".documents__back");
-  next.addEventListener("click", function (event){
-    console.log(this.parentNode)
-  })
+  console.log(back);
+  if (next !== null) {
+    next.addEventListener("click", function (event) {
+     addRemove(this, img, event, "nextElementSibling");
+    });
+  }
+  if (back !== null) {
+    back.addEventListener("click", function (event) {
+      addRemove(this, img, event, "previousElementSibling");
+    });
+  }
 });
+
+function addRemove(element, img, event, name) {
+  event.preventDefault();
+  let sibling = element.parentNode[name]
+  img.classList.add("documents__img--none");
+  sibling.classList.remove("documents__img--none");
+}
+let a = {
+  age: 13,
+  name: "Al",
+  say: function() {console.log("Hello")}
+}
+a.age = 15
+let b = "age"
+a[b] = 14
